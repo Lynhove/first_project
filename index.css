@@ -1,3 +1,28 @@
-h1{
-    color: red;
+body{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+nav ul li{
+       margin-left: 25px;
+       list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+    
 }
