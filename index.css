@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
+    font-family: 'Montserrat', sans-serif;
 }
 nav{
     background-color: brown;
@@ -12,9 +13,7 @@ nav{
 nav ul{
     display: flex;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 }
 nav ul li{
        margin-left: 25px;
@@ -22,7 +21,39 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: white; 
+    text-transform: uppercase; 
+    padding: 15px;
+}
+nav ul li a:hover{
+    background-color: rgba(99, 124, 238, 0.767);
+    padding: 15px;
+    border-radius: 15px;
+    
+    
+}
+.header{
+    background: linear-gradient(rgba(107, 12, 12, 0.486),rgba(24, 15, 15, 0.2)),url("../first_project/images/juriste.jpeg") no-repeat 50%;
+    background-size: cover;
+    opacity: 10px;
+    color: black;
+    padding-bottom: 150px;
+    padding-top: 150px; 
+    text-align: center;
+}
+span{
+    color: red;
+}
+.header h1 p{
+    background-color: aliceblue;
+    opacity: 10px;
+    border-radius: 10px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
     
 }
