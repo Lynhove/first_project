@@ -5,17 +5,16 @@ body{
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
 }
+/*style pour le menu*/
 nav{
     background-color: brown;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;    
-    align-items: center;
+    width: 100%;
 }
 nav ul{
     display: flex;
     align-items: center;
     justify-content: center;   
+    padding: 18px;
 }
 nav ul li{
        margin-left: 25px;
@@ -31,34 +30,43 @@ nav ul li a:hover{
     background-color: rgba(99, 124, 238, 0.767);
     padding: 15px;
     border-radius: 15px;
-    
-    
 }
+/****FIN POUR MON MENU**************/
+
+/*Style pour le header*/
 .header{
     background: linear-gradient(rgba(107, 12, 12, 0.486),rgba(24, 15, 15, 0.2)),url("../first_project/images/juriste.jpeg") no-repeat 50%;
     background-size: cover;
-    opacity: 10px;
-    color: white;
-    padding-bottom: 150px;
-    padding-top: 150px; 
+    color: black;
     text-align: center;
+    width: 100%;
+    min-height: 60vh;
+    position: relative;
+    bottom: 20px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 span{
     color: red;
 }
-.header h1 p{
-    background-color: aliceblue;
-    opacity: 10px;
-    border-radius: 10px;
+.banniere{
+    background-color: rgba(240, 248, 255, 0.493);
+    opacity: 0.8;
+    border-radius: 0px;
+    width: 50%;
 }
-section{
+.banniere h1{
+    text-transform: uppercase;
+}
+.banniere p{
+    margin-bottom: 7%;
+}
+.part{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 45px;
-    margin: 18px;
-    
-    
     
     
 }
