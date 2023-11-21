@@ -63,10 +63,65 @@ span{
 .banniere p{
     margin-bottom: 7%;
 }
-.part{
+/**********fin*************/
+
+/**********style de la partie presentation-mission*****/
+.presentation-mission{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    
+    margin: 18px;   
 }
+h2{
+    text-transform: capitalize;
+}
+/**********fin*************/
+
+/*Style pour la partie prestation*/
+.prestation{
+    background: linear-gradient(rgba(107, 12, 12, 0.486),rgba(24, 15, 15, 0.2)),url("../first_project/images/travail.jpeg") no-repeat 50%;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    width: 100%;
+    min-height: 60vh;
+    position: relative;
+    bottom: 20px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: red;
+}
+.nos{
+    background-color: rgba(240, 248, 255, 0.493);
+    opacity: 0.8;
+    border-radius: 0px;
+    width: 50%;
+}
+.nos h1{
+    text-transform: uppercase;r
+}
+.nos p{
+    margin-bottom:5%;
+}
+/**********fin*************/
+
+/**********style de la partie historique*****/
+.historique{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    margin: 45px;   
+}
+h2{
+    text-transform: capitalize;
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+/**********fin*************/
+
